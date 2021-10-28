@@ -28,21 +28,25 @@ public class MainActivity extends AppCompatActivity {
             case "a":
                 frutas.setImageResource(R.drawable.aguacates);
                 Toast.makeText(this, "Ha seleccionado los aguacates", Toast.LENGTH_LONG).show();
+                texto.setText("");
                 break;
 
             case "n":
                 frutas.setImageResource(R.drawable.naranjas);
                 Toast.makeText(this, "Ha seleccionado las naranjas", Toast.LENGTH_LONG).show();
+                texto.setText("");
                 break;
 
             case "p":
                 frutas.setImageResource(R.drawable.platano);
                 Toast.makeText(this, "Ha seleccionado los platanos", Toast.LENGTH_LONG).show();
+                texto.setText("");
                 break;
 
             default:
                 Toast.makeText(this, "Introduce a, n, p, para mostrar la fruta seleccionada", Toast.LENGTH_LONG).show();
                 frutas.setImageResource(R.drawable.fruta);
+                texto.setText("");
         }
 
     }
