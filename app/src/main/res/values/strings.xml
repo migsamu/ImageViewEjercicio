@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageViewEjercicio</string>
+    <string name="ivFrutas">Frutas</string>
+    <string name="etTexto">p:Platanos, n:Naranjas, a:Aguacates</string>
+    <string name="btnCargar">Cargar imagen</string>
+
+</resources>
